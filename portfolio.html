@@ -29,10 +29,15 @@
         </nav>
         <ul class="info list">
           <li class="info-item">
-            <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="adress-link" href="mailto:info@devstudio.com"><svg class="adress-link-icon" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg> info@devstudio.com</a>
           </li>
           <li class="info-item">
-            <a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="adress-link" href="tel:+380961111111"><svg class="adress-link-icon" width="10px" height="16px">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -138,13 +143,54 @@
     </main>
 
     <!--Footer Подвал-->
-    <footer>
+    <footer class="footer">
       <div class="container footer">
-        <a class="logo" href="./index.html">Web<span class="logo-text">Studio</span></a>
-        <address class="address"><a class="map">г. Киев, пр-т Леси Украинки, 26</a>
-          <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="footer-address">
+          <a class="logo" href="#">Web<span class="logo-text">Studio</span></a>
+          <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+          <address>
+            <ul class="footer-item">
+              <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+    
+        <!-- Присоединяйтесь-->
+        <div class="join">
+          <p>Присоединяйтесь</p>
+          <ul class="join-list">
+            <li class="item">
+              <a href="#" class="join-link">
+                <svg class="join-icon">
+                  <use href="./images/sprite.svg#icon-instagram-two"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="join-link">
+                <svg class="join-icon">
+                  <use href="./images/sprite.svg#icon-twitter-two"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="join-link">
+                <svg class="join-icon">
+                  <use href="./images/sprite.svg#icon-facebook-two"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="join-link">
+                <svg class="join-icon">
+                  <use href="./images/sprite.svg#icon-linkedin-two"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+    
       </div>
     </footer>
   </body>
