@@ -151,6 +151,12 @@ section {
 
 .adress-link-icon {
   margin-right: 10px;
+  fill: #757575;
+}
+
+.adress-link-icon:hover,
+.adress-link-icon:focus {
+  fill: #2196f3;
 }
 
 .adress-link:hover,
@@ -501,9 +507,21 @@ img {
   /*color: var(--primary-background);*/
 }
 
+.team-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+}
+
 .team-network-link:hover,
 .team-network-link:focus {
-  color: var(--primary-background);
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 
@@ -545,7 +563,19 @@ img {
   border-radius: 4px;
 }
 
-.clients .clients-links:hover,
+.clients-icon {
+  width: 44px;
+  height: 50px;
+  fill: #afb1b8;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  color: var(--accent-color);
+  fill: currentColor;
+}
+
+.clients-links:hover,
 .clients .clients-links:focus {
   border: 2px solid var(--accent-color);
   color: var(--accent-color);
